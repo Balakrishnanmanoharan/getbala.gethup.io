@@ -1,0 +1,242 @@
+.bannersection {
+    padding: 90px 0px 0px 0px;
+    background-color: #064775;
+}
+
+
+.bannerwrapper {
+    color: white;
+}
+
+.bannerwrapper h1 {
+    margin-top: 70px;
+}
+
+
+.bannerbutton button {
+    padding: 8px 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: #3c9de7;
+    color: white;
+    margin-top: 70px;
+}
+
+.bannerbuttontwo {}
+
+.bannerbuttontwo i {
+    font-size: 35px;
+    padding-right: 10px;
+    color: #f3f5fa;
+}
+
+.bannerbuttontwo i:hover {
+    color: #000000;
+}
+
+.bannerbuttontwo p {
+    margin-top: 63px;
+    color: white;
+    font-size: 20px;
+
+}
+
+@media (max-width:992px) {
+    .bannerbutton button {
+        display: none;
+    }
+
+
+}
+
+
+
+@media (max-width:992px) {
+    .bannerbuttontwo {
+        display: none;
+    }
+
+
+}
+
+.bannerwrappertwo {
+
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out 200ms;
+}
+
+
+
+@keyframes example {
+    0% {
+        transform: translateY(20px);
+    }
+
+    25% {
+        transform: translateY(-10px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(20px);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+#abotsection {
+    padding: 70px 0px;
+}
+
+.abouttitle {
+    text-align: center;
+}
+
+.abouttitle h2 {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.abouttitle h2::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 93%;
+    right: 50%;
+    width: 40px;
+    height: 3px;
+    background-color: #3c9de7;
+    transform: translate(50%, 50%);
+}
+
+.abouttitle h2::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+    height: 1px;
+    background: #1e1e1e;
+    margin-top: 15px;
+}
+
+
+.aboutbox {}
+
+.aboutbox button {
+    background: none;
+    color: #3c9de7;
+    border: 2px solid #3c9de7;
+    padding: 8px 40px;
+    border-radius: 7px;
+}
+
+.aboutbox button:hover {
+    background-color: #3c9de7;
+    color: white;
+    transition: all ease-in-out 200ms;
+}
+
+.aboutbox i {
+    padding-right: 10px;
+    color: #3c9de7;
+}
+
+
+
+.htmlsection {
+    padding: 50px 0px;
+}
+
+.htmlbox h3 {
+    color: #064775;
+
+}
+
+.html {
+    color: #064775;
+
+}
+
+.htmlpersentagebox {
+    background-color: #064775;
+    height: 10px;
+}
+
+.css {
+    color: #064775;
+    margin-top: 20px;
+
+}
+
+.htmlpersentagebox2 {
+    background-color: #578fb9;
+    height: 10px;
+    position: relative;
+}
+
+.htmlpersentagebox2::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 550px;
+    height: 10px;
+    background-color: #064775;
+}
+
+
+.java {
+    color: #064775;
+    margin-top: 20px;
+
+}
+
+.htmlpersentagebox3 {
+    background-color: #578fb9;
+    height: 10px;
+    position: relative;
+}
+
+.htmlpersentagebox3::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 470px;
+    height: 10px;
+    background-color: #064775;
+}
+
+
+.pshop {
+    color: #064775;
+    margin-top: 20px;
+
+}
+
+.htmlpersentagebox4 {
+    background-color: #578fb9;
+    height: 10px;
+    position: relative;
+}
+
+.htmlpersentagebox4::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 400px;
+    height: 10px;
+    background-color: #064775;
+}
